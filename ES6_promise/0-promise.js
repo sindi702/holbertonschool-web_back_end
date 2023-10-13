@@ -1,8 +1,6 @@
 function getResponseFromAPI() {
-
-    
     return new Promise((resolve) => {
-        setTimeout(() => {
+    setTimeout(() => {
         resolve();
     }, 10);
     });
